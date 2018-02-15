@@ -1,7 +1,7 @@
 {
   "name": "@chrisblossom/eslint-config",
-  "version": "1.0.0",
-  "description": "My personal ESLint config",
+  "version": "1.0.1",
+  "description": "My personal ESLint config.",
   "keywords": [],
   "author": "Chris Blossom",
   "repository": "chrisblossom/eslint-config",

@@ -6,3 +6,6 @@ This is my personal ESLint config I've extended from [Airbnb's](https://github.c
 
 I've found some of Airbnb's rules too be too restrictive. This package is not guaranteed to follow semver.
 
+## Usage
+``npm install --save @chrisblossom/eslint-config``
+
