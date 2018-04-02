@@ -99,7 +99,7 @@ module.exports = {
          * Jest
          */
         'jest/consistent-test-it': ['error', { fn: 'test' }],
-        'valid-expect-in-promise': 'error',
+        'jest/valid-expect-in-promise': 'error',
 
         /**
          * no async without await
