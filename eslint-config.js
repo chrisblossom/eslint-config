@@ -58,11 +58,14 @@ module.exports = {
         ],
 
         /**
-         * Too strict
+         * Import
          */
         'import/prefer-default-export': 'off',
+        'import/no-default-export': 'error',
         'import/extensions': 'off',
         'import/no-dynamic-require': 'off',
+        'import/no-useless-path-segments': 'error',
+        'import/no-self-import': 'error',
 
         /**
          * Promise
@@ -71,6 +74,32 @@ module.exports = {
         'promise/no-callback-in-promise': 'off',
         'promise/avoid-new': 'off',
         'promise/no-return-in-finally': 'error',
+
+        /**
+         * flowtype
+         */
+        'flowtype/newline-after-flow-annotation': ['error', 'always'],
+        'flowtype/require-valid-file-annotation': [
+            'error',
+            'always', {
+                'annotationStyle': 'block',
+            },
+        ],
+        'flowtype/no-dupe-keys': 'error',
+        // Use $ReadOnlyArray<> instead of Array<>
+        'flowtype/no-mutable-array': 'error',
+
+        // maybe too restrictive / issue-prone
+        'flowtype/require-exact-type': [
+            2,
+            'always',
+        ],
+
+        /**
+         * Jest
+         */
+        'jest/consistent-test-it': ['error', { fn: 'test' }],
+        'valid-expect-in-promise': 'error',
 
         /**
          * no async without await
@@ -90,6 +119,11 @@ module.exports = {
             rules: {
                 'arrow-body-style': 'off',
             },
+            settings: {
+                flowtype: {
+                    onlyFilesWithFlowAnnotation: true,
+                },
+            },
         },
 
         /**
@@ -104,6 +138,11 @@ module.exports = {
             rules: {
                 strict: ['error', 'safe'],
             },
+            settings: {
+                flowtype: {
+                    onlyFilesWithFlowAnnotation: true,
+                },
+            },
         },
 
         /**
@@ -116,6 +155,11 @@ module.exports = {
             },
             rules: {
                 strict: ['error', 'safe'],
+            },
+            settings: {
+                flowtype: {
+                    onlyFilesWithFlowAnnotation: true,
+                },
             },
         },
     ],

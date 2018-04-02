@@ -1,1 +1,8 @@
 node_modules
+.idea
+.vscode
+.DS_Store
+*.swp
+*.log
+.env
+*.ignore
