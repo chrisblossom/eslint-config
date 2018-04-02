@@ -7,10 +7,11 @@ module.exports = {
         'plugin:promise/recommended',
         'plugin:flowtype/recommended',
         'plugin:jest/recommended',
+        'plugin:eslint-comments/recommended',
         'prettier',
         'prettier/flowtype',
     ],
-    plugins: ['promise', 'no-async-without-await', 'flowtype', 'jest'],
+    plugins: ['promise', 'no-async-without-await', 'flowtype', 'jest', 'eslint-comments'],
     env: {
         browser: false,
         node: true,
