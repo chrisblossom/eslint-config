@@ -106,6 +106,11 @@ module.exports = {
          * no async without await
          */
         'no-async-without-await/no-async-without-await': 'error',
+
+        /**
+         * eslint comments
+         */
+        'eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }],
     },
 
     settings: {
