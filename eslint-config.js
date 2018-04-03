@@ -11,7 +11,7 @@ module.exports = {
         'prettier',
         'prettier/flowtype',
     ],
-    plugins: ['promise', 'no-async-without-await', 'flowtype', 'jest', 'eslint-comments'],
+    plugins: ['promise', 'no-async-without-await', 'flowtype', 'jest', 'eslint-comments', 'filenames'],
     env: {
         browser: false,
         node: true,
