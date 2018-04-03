@@ -111,6 +111,15 @@ module.exports = {
          * eslint comments
          */
         'eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }],
+
+        /**
+         * filenames
+         */
+        // TODO: create .test. & .config. pattern matches
+        'filenames/match-regex': [2, '^[a-z0-9\-\.]+$', true],
+        'filenames/match-exported': ['error', 'kebab'],
+        'filenames/no-index': 'error',
+
     },
 
     settings: {
