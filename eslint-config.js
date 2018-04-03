@@ -117,7 +117,7 @@ module.exports = {
          */
         // TODO: create .test. & .config. pattern matches
         'filenames/match-regex': [2, '^[a-z0-9\-\.]+$', true],
-        'filenames/match-exported': ['error', 'kebab'],
+        'filenames/match-exported': ['error', 'kebab', '\\.[a-z0-9\-]+$'],
         'filenames/no-index': 'error',
 
     },
