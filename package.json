@@ -1,6 +1,6 @@
 {
   "name": "@chrisblossom/eslint-config",
-  "version": "2.0.10",
+  "version": "3.0.0",
   "description": "My personal ESLint config.",
   "keywords": [],
   "license": "MIT",
