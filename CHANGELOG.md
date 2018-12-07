@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [3.0.2] - 2018-12-07
+
 ### Fixed
 
 -   arrow-body-style test file type fix
