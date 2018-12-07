@@ -26,6 +26,11 @@
         "files": [
             "lib/"
         ],
+        "lib": [
+            "lib/",
+            "flow.js",
+            "typescript.js"
+        ],
         "main": "lib/eslint-config.js",
         "scripts": {
             "format": "backtrack format",
