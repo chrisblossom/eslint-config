@@ -4,8 +4,8 @@ This is my personal ESLint config I've extended from [Airbnb's](https://github.c
 
 ## About
 
-I've found some of Airbnb's rules too be too restrictive. This package is not guaranteed to follow semver.
+I've found some of Airbnb's rules too be too restrictive.
 
 ## Usage
-``npm install --save @chrisblossom/eslint-config``
 
+`npm install --save @chrisblossom/eslint-config`
