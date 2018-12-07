@@ -27,6 +27,6 @@ module.exports = {
             'test.update': null,
             'test.watch': null,
         },
-        lib: ['lib/', 'flow.js', 'typescript.js'],
+        files: ['lib/', 'flow.js', 'typescript.js'],
     },
 };

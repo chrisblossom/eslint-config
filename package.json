@@ -12,7 +12,9 @@
     "npm": ">=3.10.10"
   },
   "files": [
-    "lib/"
+    "lib/",
+    "flow.js",
+    "typescript.js"
   ],
   "main": "lib/eslint-config.js",
   "scripts": {
@@ -23,11 +25,6 @@
     "prepublishOnly": "backtrack prepublishOnly",
     "prepush": "backtrack prepush"
   },
-  "lib": [
-    "lib/",
-    "flow.js",
-    "typescript.js"
-  ],
   "devDependencies": {
     "@backtrack/core": "^0.1.23",
     "@backtrack/preset-preset": "^0.3.7"

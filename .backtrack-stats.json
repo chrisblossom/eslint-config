@@ -24,9 +24,6 @@
             "npm": ">=3.10.10"
         },
         "files": [
-            "lib/"
-        ],
-        "lib": [
             "lib/",
             "flow.js",
             "typescript.js"

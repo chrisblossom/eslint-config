@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Fixed
+
+-   Missing typescript and flow from npm package
+
 ## [3.0.0] - 2018-12-07
 
 ### Changed
