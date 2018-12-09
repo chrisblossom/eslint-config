@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Changed
+
+-   Only use typescript-eslint-parser on .ts and .tsx files
+
+### Fixed
+
+-   Fix AirBnB preset to work with Typescript files
+-   Support node 6
+
 ## [3.0.2] - 2018-12-07
 
 ### Fixed
