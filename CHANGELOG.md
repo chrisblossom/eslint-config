@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
+-   eslint-plugin-import rule updates
 -   Only use typescript-eslint-parser on .ts and .tsx files
 -   Move all flow settings to flow.js
 
