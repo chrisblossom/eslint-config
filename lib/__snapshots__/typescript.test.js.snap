@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lints typescript files 1`] = `
+Array [
+  Object {
+    "errorCount": 3,
+    "filePath": "<PROJECT_ROOT>/lib/__sandbox__/typescript/a.ts",
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "messages": Array [
+      Object {
+        "column": 7,
+        "endColumn": 13,
+        "endLine": 1,
+        "line": 1,
+        "message": "'unused' is assigned a value but never used.",
+        "nodeType": "Identifier",
+        "ruleId": "no-unused-vars",
+        "severity": 2,
+      },
+      Object {
+        "column": 1,
+        "endColumn": 17,
+        "endLine": 3,
+        "line": 3,
+        "message": "ES2015 module syntax is preferred over custom TypeScript modules and namespaces",
+        "nodeType": "TSModuleDeclaration",
+        "ruleId": "typescript/no-namespace",
+        "severity": 2,
+      },
+      Object {
+        "column": 11,
+        "endColumn": 14,
+        "endLine": 3,
+        "line": 3,
+        "message": "'foo' is defined but never used.",
+        "nodeType": "Identifier",
+        "ruleId": "no-unused-vars",
+        "severity": 2,
+      },
+    ],
+    "source": "const unused = 1;
+
+namespace foo {}
+
+type A = {
+    one: string,
+    two: string,
+}
+
+function a() {
+}
+
+export { a };
+",
+    "warningCount": 0,
+  },
+  Object {
+    "errorCount": 1,
+    "filePath": "<PROJECT_ROOT>/lib/__sandbox__/typescript/b.ts",
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "messages": Array [
+      Object {
+        "column": 1,
+        "endColumn": 18,
+        "endLine": 11,
+        "line": 11,
+        "message": "Prefer named exports.",
+        "nodeType": "ExportDefaultDeclaration",
+        "ruleId": "import/no-default-export",
+        "severity": 2,
+      },
+    ],
+    "source": "import { a } from './a';
+
+type B = {
+    one: string,
+}
+
+function b() {
+    a();
+}
+
+export default b;
+",
+    "warningCount": 0,
+  },
+]
+`;

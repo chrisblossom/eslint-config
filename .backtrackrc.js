@@ -4,29 +4,19 @@ module.exports = {
     presets: ['@backtrack/preset'],
 
     files: {
-        skip: [
-            'lib/files',
-            'lib/eslint-config.test.js',
-            '.circleci/config.yml',
-            'appveyor.yml',
-            'jest.config.js',
-            'wallaby.config.js',
-        ],
+        skip: ['lib/files'],
     },
 
-    test: false,
-    'test.ci': false,
-    'test.ci-pretest': false,
-    'test.update': false,
-    'test.watch': false,
-    prepublishOnly: [false, 'backtrack lint'],
-    prepush: [false, 'backtrack lint'],
-
     packageJson: {
-        scripts: {
-            'test.update': null,
-            'test.watch': null,
-        },
         files: ['lib/', 'flow.js', 'typescript.js'],
+    },
+
+    config: {
+        jest: {
+            coveragePathIgnorePatterns: [
+                '__sandbox__',
+                'fix-eslint-plugin-typescript.js',
+            ],
+        },
     },
 };

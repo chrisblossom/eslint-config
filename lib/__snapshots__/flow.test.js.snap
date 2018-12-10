@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lints flow files 1`] = `
+Array [
+  Object {
+    "errorCount": 3,
+    "filePath": "<PROJECT_ROOT>/lib/__sandbox__/flow/a.js",
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "messages": Array [
+      Object {
+        "column": 7,
+        "endColumn": 13,
+        "endLine": 3,
+        "line": 3,
+        "message": "'unused' is assigned a value but never used.",
+        "nodeType": "Identifier",
+        "ruleId": "no-unused-vars",
+        "severity": 2,
+      },
+      Object {
+        "column": 1,
+        "endColumn": 2,
+        "endLine": 8,
+        "line": 5,
+        "message": "Type identifier 'A' must be exact.",
+        "nodeType": "TypeAlias",
+        "ruleId": "flowtype/require-exact-type",
+        "severity": 2,
+      },
+      Object {
+        "column": 6,
+        "endColumn": 7,
+        "endLine": 5,
+        "line": 5,
+        "message": "'A' is defined but never used.",
+        "nodeType": "Identifier",
+        "ruleId": "no-unused-vars",
+        "severity": 2,
+      },
+    ],
+    "source": "/* @flow */
+
+const unused = 1;
+
+type A = {
+    one: string,
+    two: string,
+}
+
+function a() {
+}
+
+export { a };
+",
+    "warningCount": 0,
+  },
+  Object {
+    "errorCount": 4,
+    "filePath": "<PROJECT_ROOT>/lib/__sandbox__/flow/b.js",
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "messages": Array [
+      Object {
+        "column": 1,
+        "endColumn": 2,
+        "endLine": 8,
+        "line": 5,
+        "message": "Type identifier 'B' must be exact.",
+        "nodeType": "TypeAlias",
+        "ruleId": "flowtype/require-exact-type",
+        "severity": 2,
+      },
+      Object {
+        "column": 6,
+        "endColumn": 7,
+        "endLine": 5,
+        "line": 5,
+        "message": "'B' is defined but never used.",
+        "nodeType": "Identifier",
+        "ruleId": "no-unused-vars",
+        "severity": 2,
+      },
+      Object {
+        "column": 5,
+        "endColumn": 17,
+        "endLine": 7,
+        "line": 7,
+        "message": "Duplicate property.",
+        "nodeType": "ObjectTypeProperty",
+        "ruleId": "flowtype/no-dupe-keys",
+        "severity": 2,
+      },
+      Object {
+        "column": 1,
+        "endColumn": 18,
+        "endLine": 14,
+        "line": 14,
+        "message": "Prefer named exports.",
+        "nodeType": "ExportDefaultDeclaration",
+        "ruleId": "import/no-default-export",
+        "severity": 2,
+      },
+    ],
+    "source": "/* @flow */
+
+import { a } from './a';
+
+type B = {
+    one: string,
+    one: boolean,
+}
+
+function b() {
+    a();
+}
+
+export default b;
+",
+    "warningCount": 0,
+  },
+]
+`;

@@ -1,6 +1,9 @@
 # @chrisblossom/eslint-config
 
 [![npm](https://img.shields.io/npm/v/@chrisblossom/eslint-config.svg?label=npm%20version)](https://www.npmjs.com/package/@chrisblossom/eslint-config)
+[![Linux Build Status](https://img.shields.io/circleci/project/github/chrisblossom/eslint-config/master.svg?label=linux%20build)](https://circleci.com/gh/chrisblossom/eslint-config/tree/master)
+[![Windows Build Status](https://img.shields.io/appveyor/ci/chrisblossom/eslint-config/master.svg?label=windows%20build)](https://ci.appveyor.com/project/chrisblossom/eslint-config/branch/master)
+[![Code Coverage](https://img.shields.io/codecov/c/github/chrisblossom/eslint-config/master.svg)](https://codecov.io/gh/chrisblossom/eslint-config/branch/master)
 
 ## About
 
