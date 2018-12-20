@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [4.0.0] - 2018-12-19
+
 ### Added
 
 -   @chrisblossom/eslint-config/node for vanilla node projects
