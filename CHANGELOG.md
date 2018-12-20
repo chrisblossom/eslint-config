@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Added
+
+-   @chrisblossom/eslint-config/node for vanilla node projects
+
+### Changed
+
+-   Removed /typescript and /flow in favor of feature detection
+-   Removed eslint-plugin-no-async-without-await plugin
+
 ## [3.0.3] - 2018-12-10
 
 ### Added

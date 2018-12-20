@@ -1,14 +1,16 @@
 'use strict';
 
+require('./fix-eslint-plugin-typescript');
+
 module.exports = {
     presets: ['@backtrack/preset'],
 
     files: {
-        skip: ['lib/files'],
+        skip: ['lib/files', 'lib/eslint-config.test.js'],
     },
 
     packageJson: {
-        files: ['lib/', 'flow.js', 'typescript.js'],
+        files: ['lib/', 'node.js'],
     },
 
     config: {

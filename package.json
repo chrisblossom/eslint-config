@@ -13,8 +13,7 @@
   },
   "files": [
     "lib/",
-    "flow.js",
-    "typescript.js"
+    "node.js"
   ],
   "main": "lib/eslint-config.js",
   "scripts": {
@@ -32,11 +31,13 @@
   },
   "devDependencies": {
     "@backtrack/core": "^0.1.23",
-    "@backtrack/preset-preset": "^0.3.8",
+    "@backtrack/preset-preset": "^0.3.9",
     "del": "^3.0.0",
     "eslint": "^5.10.0",
+    "flow-bin": "^0.89.0",
     "read-dir-deep": "^1.0.4",
     "requireindex": "^1.2.0",
+    "temp-sandbox": "^1.0.3",
     "typescript": "^3.2.2"
   },
   "dependencies": {
@@ -48,7 +49,7 @@
     "eslint-plugin-flowtype": "^3.2.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^22.1.2",
-    "eslint-plugin-no-async-without-await": "^1.2.0",
+    "eslint-plugin-node": "^8.0.0",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-typescript": "^0.14.0",
     "typescript-eslint-parser": "^21.0.2"

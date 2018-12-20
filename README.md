@@ -19,10 +19,7 @@ This is my personal ESLint config I've extended from [Airbnb's](https://github.c
 module.exports = {
     extends: ['@chrisblossom/eslint-config'],
 
-    // typescript support
-    extends: ['@chrisblossom/eslint-config/typescript'],
-
-    // flowtype  support
-    extends: ['@chrisblossom/eslint-config/flow'],
+    // Vanilla JS. No compiling
+    extends: ['@chrisblossom/eslint-config/node'],
 };
 ```

@@ -20,8 +20,7 @@
             "appveyor.yml": "251406424b8cb49b1a8858ef7eb521ae57856964625daed85b591692e8f98e15",
             "jest.config.js": "322dd136d43514064c38fdf8cd999d6511d83af8efbb35d8d355a3f35937c6c4",
             "lib/eslint-config.js": "ignoreUpdates",
-            "lib/eslint-config.test.js": "ignoreUpdates",
-            "wallaby.config.js": "b79a89efd0484c2aba8477197056e4ae331dc6a0d533e050edd99d89630cb78f"
+            "wallaby.config.js": "9ba161416002cd5d8a171f0b92f51d80cb6e559fcaaaa32835caec84de99ae6f"
         }
     },
     "packageJson": {
@@ -31,8 +30,7 @@
         },
         "files": [
             "lib/",
-            "flow.js",
-            "typescript.js"
+            "node.js"
         ],
         "main": "lib/eslint-config.js",
         "scripts": {

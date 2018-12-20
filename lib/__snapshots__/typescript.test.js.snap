@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`lints typescript files 1`] = `
+exports[`typescript lints typescript files 1`] = `
 Array [
   Object {
     "errorCount": 3,
-    "filePath": "<PROJECT_ROOT>/lib/__sandbox__/typescript/a.ts",
+    "filePath": "<PROJECT_ROOT>/src/a.ts",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
     "messages": Array [
@@ -57,7 +57,7 @@ export { a };
   },
   Object {
     "errorCount": 1,
-    "filePath": "<PROJECT_ROOT>/lib/__sandbox__/typescript/b.ts",
+    "filePath": "<PROJECT_ROOT>/src/b.ts",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
     "messages": Array [

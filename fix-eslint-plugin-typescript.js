@@ -21,5 +21,5 @@ const base = path.resolve(
 const exists = fs.existsSync(base);
 
 if (exists === true) {
-    del.sync(base);
+    del.sync(base, { force: true });
 }
