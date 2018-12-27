@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [4.0.1] - 2018-12-27
+
 ### Changed
 
 -   Disable node/shebang [eslint-plugin-node/issues/96](https://github.com/mysticatea/eslint-plugin-node/issues/96)
