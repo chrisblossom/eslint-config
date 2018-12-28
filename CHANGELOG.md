@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Changed
+
+-   Disable promise/always-return on test files
+
 ## [4.0.1] - 2018-12-27
 
 ### Changed
