@@ -1,5 +1,19 @@
 {
   "engines": {
     "node": ">=6.9.0"
-  }
+  },
+  "private": true,
+  "name": "node",
+  "version": "1.0.0",
+  "main": "lib/node.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

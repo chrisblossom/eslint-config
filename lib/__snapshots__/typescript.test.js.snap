@@ -86,5 +86,13 @@ export default b;
 ",
     "warningCount": 0,
   },
+  Object {
+    "errorCount": 0,
+    "filePath": "<PROJECT_ROOT>/src/typescript.ts",
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "messages": Array [],
+    "warningCount": 0,
+  },
 ]
 `;
