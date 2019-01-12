@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@backtrack/core": "^0.1.23",
-    "@backtrack/preset-preset": "^0.3.12",
+    "@backtrack/preset-node-module": "^0.5.1",
     "del": "^3.0.0",
     "eslint": "^5.11.1",
     "flow-bin": "^0.89.0",

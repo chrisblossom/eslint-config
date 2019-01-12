@@ -3,11 +3,7 @@
 require('./fix-eslint-plugin-typescript');
 
 module.exports = {
-    presets: ['@backtrack/preset'],
-
-    files: {
-        skip: ['lib/files', 'lib/eslint-config.test.js'],
-    },
+    presets: ['@backtrack/node-module'],
 
     packageJson: {
         files: ['lib/', 'node.js'],
@@ -19,6 +15,12 @@ module.exports = {
                 '__sandbox__',
                 'fix-eslint-plugin-typescript.js',
             ],
+        },
+
+        eslint: () => {
+            return {
+                extends: './node.js',
+            };
         },
     },
 };
