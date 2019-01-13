@@ -35,7 +35,7 @@
     "del": "^3.0.0",
     "eslint": "^5.11.1",
     "flow-bin": "^0.89.0",
-    "read-dir-deep": "^1.0.4",
+    "read-dir-deep": "^3.0.0",
     "requireindex": "^1.2.0",
     "temp-sandbox": "^1.0.3",
     "typescript": "^3.2.2"
