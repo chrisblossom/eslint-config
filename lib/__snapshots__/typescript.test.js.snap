@@ -3,16 +3,26 @@
 exports[`typescript lints typescript files 1`] = `
 Array [
   Object {
-    "errorCount": 3,
+    "errorCount": 4,
     "filePath": "<PROJECT_ROOT>/src/a.ts",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
     "messages": Array [
       Object {
+        "column": 25,
+        "endColumn": 36,
+        "endLine": 2,
+        "line": 2,
+        "message": "Missing file extension \\"json\\" for \\"./example\\"",
+        "nodeType": "Literal",
+        "ruleId": "import/extensions",
+        "severity": 2,
+      },
+      Object {
         "column": 7,
         "endColumn": 13,
-        "endLine": 1,
-        "line": 1,
+        "endLine": 4,
+        "line": 4,
         "message": "'unused' is assigned a value but never used.",
         "nodeType": "Identifier",
         "ruleId": "no-unused-vars",
@@ -21,8 +31,8 @@ Array [
       Object {
         "column": 1,
         "endColumn": 17,
-        "endLine": 3,
-        "line": 3,
+        "endLine": 6,
+        "line": 6,
         "message": "ES2015 module syntax is preferred over custom TypeScript modules and namespaces",
         "nodeType": "TSModuleDeclaration",
         "ruleId": "typescript/no-namespace",
@@ -31,15 +41,18 @@ Array [
       Object {
         "column": 11,
         "endColumn": 14,
-        "endLine": 3,
-        "line": 3,
+        "endLine": 6,
+        "line": 6,
         "message": "'foo' is defined but never used.",
         "nodeType": "Identifier",
         "ruleId": "no-unused-vars",
         "severity": 2,
       },
     ],
-    "source": "const unused = 1;
+    "source": "// @ts-ignore
+import exampleJson from './example';
+
+const unused = 1;
 
 namespace foo {}
 
@@ -51,7 +64,7 @@ type A = {
 function a() {
 }
 
-export { a };
+export { a, exampleJson };
 ",
     "warningCount": 0,
   },
@@ -84,6 +97,14 @@ function b() {
 
 export default b;
 ",
+    "warningCount": 0,
+  },
+  Object {
+    "errorCount": 0,
+    "filePath": "<PROJECT_ROOT>/src/typescript.test.ts",
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "messages": Array [],
     "warningCount": 0,
   },
   Object {
