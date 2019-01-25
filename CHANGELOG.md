@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+-   Fix wrong wrong @typescript-eslint/parser import package
+
 ## [4.0.6] - 2019-01-25
 
 -   Update packages
