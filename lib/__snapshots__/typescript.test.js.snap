@@ -3,7 +3,7 @@
 exports[`typescript lints typescript files 1`] = `
 Array [
   Object {
-    "errorCount": 4,
+    "errorCount": 6,
     "filePath": "<PROJECT_ROOT>/src/a.ts",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
@@ -29,13 +29,24 @@ Array [
         "severity": 2,
       },
       Object {
+        "column": 7,
+        "endColumn": 13,
+        "endLine": 4,
+        "line": 4,
+        "message": "'unused' is assigned a value but never used.",
+        "nodeType": "Identifier",
+        "ruleId": "@typescript-eslint/no-unused-vars",
+        "severity": 2,
+      },
+      Object {
         "column": 1,
         "endColumn": 17,
         "endLine": 6,
         "line": 6,
-        "message": "ES2015 module syntax is preferred over custom TypeScript modules and namespaces",
+        "message": "ES2015 module syntax is preferred over custom TypeScript modules and namespaces.",
+        "messageId": "moduleSyntaxIsPreferred",
         "nodeType": "TSModuleDeclaration",
-        "ruleId": "typescript/no-namespace",
+        "ruleId": "@typescript-eslint/no-namespace",
         "severity": 2,
       },
       Object {
@@ -46,6 +57,16 @@ Array [
         "message": "'foo' is defined but never used.",
         "nodeType": "Identifier",
         "ruleId": "no-unused-vars",
+        "severity": 2,
+      },
+      Object {
+        "column": 11,
+        "endColumn": 14,
+        "endLine": 6,
+        "line": 6,
+        "message": "'foo' is defined but never used.",
+        "nodeType": "Identifier",
+        "ruleId": "@typescript-eslint/no-unused-vars",
         "severity": 2,
       },
     ],

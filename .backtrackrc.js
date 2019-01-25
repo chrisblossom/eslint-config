@@ -1,7 +1,5 @@
 'use strict';
 
-require('./fix-eslint-plugin-typescript');
-
 module.exports = {
     presets: ['@backtrack/node-module'],
 
