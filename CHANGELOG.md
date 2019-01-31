@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [4.0.9] - 2019-01-31
+
 -   Fix: Include dot files in override patterns
 -   Update packages
 -   Enable `import/no-named-export`
