@@ -3,6 +3,31 @@
 exports[`node lints javascript files 1`] = `
 Array [
   Object {
+    "errorCount": 1,
+    "filePath": "<PROJECT_ROOT>/lib/.hidden.js",
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "messages": Array [
+      Object {
+        "column": 1,
+        "fatal": true,
+        "line": 1,
+        "message": "Parsing error: 'import' and 'export' may appear only with 'sourceType: module'",
+        "ruleId": null,
+        "severity": 2,
+      },
+    ],
+    "source": "import a from './a';
+
+async function b() {
+    a();
+}
+
+export { b };
+",
+    "warningCount": 0,
+  },
+  Object {
     "errorCount": 2,
     "filePath": "<PROJECT_ROOT>/lib/a.js",
     "fixableErrorCount": 0,

@@ -3,6 +3,112 @@
 exports[`baseConfig lints javascript files 1`] = `
 Array [
   Object {
+    "errorCount": 1,
+    "filePath": "<PROJECT_ROOT>/.hidden-base.js",
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "messages": Array [
+      Object {
+        "column": 1,
+        "endColumn": 14,
+        "endLine": 4,
+        "line": 1,
+        "message": "Use the global form of 'use strict'.",
+        "messageId": "global",
+        "nodeType": "Program",
+        "ruleId": "strict",
+        "severity": 2,
+      },
+    ],
+    "source": "function hiddenBase() {
+}
+
+hiddenBase();
+",
+    "warningCount": 0,
+  },
+  Object {
+    "errorCount": 2,
+    "filePath": "<PROJECT_ROOT>/base.js",
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "messages": Array [
+      Object {
+        "column": 1,
+        "endColumn": 28,
+        "endLine": 4,
+        "line": 1,
+        "message": "Use the global form of 'use strict'.",
+        "messageId": "global",
+        "nodeType": "Program",
+        "ruleId": "strict",
+        "severity": 2,
+      },
+      Object {
+        "column": 1,
+        "endColumn": 28,
+        "endLine": 4,
+        "line": 1,
+        "message": "Filename 'base' must match the exported and transformed name 'base-match'.",
+        "nodeType": "Program",
+        "ruleId": "filenames/match-exported",
+        "severity": 2,
+      },
+    ],
+    "source": "function baseMatch() {
+}
+
+module.exports = baseMatch;
+",
+    "warningCount": 0,
+  },
+  Object {
+    "errorCount": 2,
+    "filePath": "<PROJECT_ROOT>/src/.hidden.js",
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "messages": Array [
+      Object {
+        "column": 25,
+        "endColumn": 36,
+        "endLine": 1,
+        "line": 1,
+        "message": "Missing file extension \\"json\\" for \\"./example\\"",
+        "nodeType": "Literal",
+        "ruleId": "import/extensions",
+        "severity": 2,
+      },
+      Object {
+        "column": 7,
+        "endColumn": 13,
+        "endLine": 3,
+        "line": 3,
+        "message": "'unused' is assigned a value but never used.",
+        "nodeType": "Identifier",
+        "ruleId": "no-unused-vars",
+        "severity": 2,
+      },
+    ],
+    "source": "import exampleJson from './example';
+
+const unused = 1;
+
+function hidden() {
+}
+
+export { hidden, exampleJson };
+",
+    "warningCount": 0,
+  },
+  Object {
+    "errorCount": 0,
+    "filePath": "<PROJECT_ROOT>/src/.hidden.test.js",
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "messages": Array [],
+    "warningCount": 0,
+  },
+  Object {
     "errorCount": 2,
     "filePath": "<PROJECT_ROOT>/src/a.js",
     "fixableErrorCount": 0,
@@ -70,6 +176,14 @@ export default b;
   Object {
     "errorCount": 0,
     "filePath": "<PROJECT_ROOT>/src/base.js",
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "messages": Array [],
+    "warningCount": 0,
+  },
+  Object {
+    "errorCount": 0,
+    "filePath": "<PROJECT_ROOT>/src/base.test.js",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
     "messages": Array [],

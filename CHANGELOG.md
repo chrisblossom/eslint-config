@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+-   Fix: Include dot files in override patterns
+-   Update packages
+-   Enable `import/no-named-export`
+
 ## [4.0.7] - 2019-01-25
 
 -   Fix wrong wrong @typescript-eslint/parser import package

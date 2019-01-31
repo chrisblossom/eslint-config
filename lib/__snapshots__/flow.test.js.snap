@@ -3,6 +3,49 @@
 exports[`flow lints flow files 1`] = `
 Array [
   Object {
+    "errorCount": 2,
+    "filePath": "<PROJECT_ROOT>/src/.hidden.js",
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "messages": Array [
+      Object {
+        "column": 7,
+        "endColumn": 13,
+        "endLine": 3,
+        "line": 3,
+        "message": "'unused' is assigned a value but never used.",
+        "nodeType": "Identifier",
+        "ruleId": "no-unused-vars",
+        "severity": 2,
+      },
+      Object {
+        "column": 1,
+        "endColumn": 2,
+        "endLine": 8,
+        "line": 5,
+        "message": "Type identifier 'A' must be exact.",
+        "nodeType": "TypeAlias",
+        "ruleId": "flowtype/require-exact-type",
+        "severity": 2,
+      },
+    ],
+    "source": "/* @flow */
+
+const unused = 1;
+
+type A = {
+    one: string,
+    two: string,
+}
+
+function a(): A {
+}
+
+export { a };
+",
+    "warningCount": 0,
+  },
+  Object {
     "errorCount": 3,
     "filePath": "<PROJECT_ROOT>/src/a.js",
     "fixableErrorCount": 0,

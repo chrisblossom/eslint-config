@@ -3,6 +3,56 @@
 exports[`typescript lints typescript files 1`] = `
 Array [
   Object {
+    "errorCount": 3,
+    "filePath": "<PROJECT_ROOT>/src/.hidden.ts",
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "messages": Array [
+      Object {
+        "column": 1,
+        "endColumn": 17,
+        "endLine": 3,
+        "line": 3,
+        "message": "ES2015 module syntax is preferred over custom TypeScript modules and namespaces.",
+        "messageId": "moduleSyntaxIsPreferred",
+        "nodeType": "TSModuleDeclaration",
+        "ruleId": "@typescript-eslint/no-namespace",
+        "severity": 2,
+      },
+      Object {
+        "column": 11,
+        "endColumn": 14,
+        "endLine": 3,
+        "line": 3,
+        "message": "'foo' is defined but never used.",
+        "nodeType": "Identifier",
+        "ruleId": "no-unused-vars",
+        "severity": 2,
+      },
+      Object {
+        "column": 11,
+        "endColumn": 14,
+        "endLine": 3,
+        "line": 3,
+        "message": "'foo' is defined but never used.",
+        "nodeType": "Identifier",
+        "ruleId": "@typescript-eslint/no-unused-vars",
+        "severity": 2,
+      },
+    ],
+    "source": "import { a } from './a';
+
+namespace foo {}
+
+function hidden(): void {
+    a();
+}
+
+export { hidden };
+",
+    "warningCount": 0,
+  },
+  Object {
     "errorCount": 6,
     "filePath": "<PROJECT_ROOT>/src/a.ts",
     "fixableErrorCount": 0,
