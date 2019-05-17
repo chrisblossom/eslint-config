@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    presets: ['@backtrack/node-module'],
+    presets: [['@backtrack/node', { mode: 'module', syntax: 'node' }]],
 
     packageJson: {
         files: ['lib/', 'node.js'],

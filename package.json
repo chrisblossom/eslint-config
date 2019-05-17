@@ -8,8 +8,7 @@
   "homepage": "https://github.com/chrisblossom/eslint-config",
   "author": "Chris Blossom",
   "engines": {
-    "node": ">=6.9.0",
-    "npm": ">=3.10.10"
+    "node": ">=6.9.0"
   },
   "files": [
     "lib/",
@@ -31,7 +30,7 @@
   },
   "devDependencies": {
     "@backtrack/core": "^0.1.28",
-    "@backtrack/preset-node-module": "^0.5.8",
+    "@backtrack/preset-node": "^0.3.1",
     "@types/node": "^12.0.2",
     "eslint": "^5.16.0",
     "flow-bin": "^0.98.1",
