@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+-   Typescript: Add `extends: ['plugin:import/typescript']`
+-   Typescript: Re-enable `import/named` [benmosher/eslint-plugin-import/pull/1304](https://github.com/benmosher/eslint-plugin-import/pull/1304)
+
 ## [4.0.9] - 2019-01-31
 
 -   Fix: Include dot files in override patterns
