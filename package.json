@@ -8,7 +8,7 @@
   "homepage": "https://github.com/chrisblossom/eslint-config",
   "author": "Chris Blossom",
   "engines": {
-    "node": ">=6.9.0"
+    "node": ">=8.9.0"
   },
   "files": [
     "lib/",
@@ -29,13 +29,13 @@
     "test.watch": "jest --watch"
   },
   "devDependencies": {
-    "@backtrack/core": "^0.1.28",
-    "@backtrack/preset-node": "^0.3.1",
+    "@backtrack/core": "^0.2.0",
+    "@backtrack/preset-node": "^0.4.3",
     "@types/node": "^12.0.2",
     "eslint": "^5.16.0",
     "flow-bin": "^0.98.1",
-    "read-dir-deep": "^5.0.0",
-    "temp-sandbox": "^2.0.0",
+    "read-dir-deep": "^6.0.0",
+    "temp-sandbox": "^3.0.0",
     "typescript": "^3.4.5"
   },
   "dependencies": {
@@ -49,9 +49,9 @@
     "eslint-plugin-flowtype": "^3.9.0",
     "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-jest": "^22.5.1",
-    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-node": "^9.0.1",
     "eslint-plugin-promise": "^4.1.1",
-    "read-pkg": "^4.0.1",
-    "slash": "^2.0.0"
+    "read-pkg": "^5.1.1",
+    "slash": "^3.0.0"
   }
 }
