@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [5.0.0] - 2019-05-20
+
 -   Breaking: No longer allow default export on package entry file
 -   Breaking: Drop node 6 support
 -   Typescript: Add `extends: ['plugin:import/typescript']`
