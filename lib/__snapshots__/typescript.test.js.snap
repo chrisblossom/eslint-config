@@ -179,11 +179,31 @@ export default b;
     "warningCount": 0,
   },
   Object {
-    "errorCount": 0,
+    "errorCount": 1,
     "filePath": "<PROJECT_ROOT>/src/typescript.ts",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
-    "messages": Array [],
+    "messages": Array [
+      Object {
+        "column": 1,
+        "endColumn": 27,
+        "endLine": 8,
+        "line": 8,
+        "message": "Prefer named exports.",
+        "nodeType": "ExportDefaultDeclaration",
+        "ruleId": "import/no-default-export",
+        "severity": 2,
+      },
+    ],
+    "source": "import { a } from './a';
+
+function typescript() {
+    a();
+}
+
+export { typescript };
+export default typescript;
+",
     "warningCount": 0,
   },
 ]

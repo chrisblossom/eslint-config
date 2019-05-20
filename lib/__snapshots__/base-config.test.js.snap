@@ -174,11 +174,31 @@ export default b;
     "warningCount": 0,
   },
   Object {
-    "errorCount": 0,
+    "errorCount": 1,
     "filePath": "<PROJECT_ROOT>/src/base.js",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
-    "messages": Array [],
+    "messages": Array [
+      Object {
+        "column": 1,
+        "endColumn": 21,
+        "endLine": 8,
+        "line": 8,
+        "message": "Prefer named exports.",
+        "nodeType": "ExportDefaultDeclaration",
+        "ruleId": "import/no-default-export",
+        "severity": 2,
+      },
+    ],
+    "source": "import { a } from './a';
+
+function base() {
+    a();
+}
+
+export { base };
+export default base;
+",
     "warningCount": 0,
   },
   Object {

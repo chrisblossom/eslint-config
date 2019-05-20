@@ -4,4 +4,5 @@ function typescript() {
     a();
 }
 
+export { typescript };
 export default typescript;

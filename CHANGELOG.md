@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+-   Breaking: No longer allow default export on package entry file
 -   Breaking: Drop node 6 support
 -   Typescript: Add `extends: ['plugin:import/typescript']`
 -   Typescript: Re-enable `import/named` [benmosher/eslint-plugin-import/pull/1304](https://github.com/benmosher/eslint-plugin-import/pull/1304)
