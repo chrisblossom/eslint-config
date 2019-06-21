@@ -8,13 +8,6 @@ module.exports = {
     },
 
     config: {
-        jest: {
-            coveragePathIgnorePatterns: [
-                '__sandbox__',
-                'fix-eslint-plugin-typescript.js',
-            ],
-        },
-
         eslint: () => {
             return {
                 extends: './node.js',
