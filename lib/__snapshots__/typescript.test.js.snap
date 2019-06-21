@@ -3,7 +3,7 @@
 exports[`typescript lints typescript files 1`] = `
 Array [
   Object {
-    "errorCount": 3,
+    "errorCount": 1,
     "filePath": "<PROJECT_ROOT>/src/.hidden.ts",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
@@ -26,18 +26,8 @@ Array [
         "line": 3,
         "message": "'foo' is defined but never used.",
         "nodeType": "Identifier",
-        "ruleId": "no-unused-vars",
-        "severity": 2,
-      },
-      Object {
-        "column": 11,
-        "endColumn": 14,
-        "endLine": 3,
-        "line": 3,
-        "message": "'foo' is defined but never used.",
-        "nodeType": "Identifier",
         "ruleId": "@typescript-eslint/no-unused-vars",
-        "severity": 2,
+        "severity": 1,
       },
     ],
     "source": "import { a } from './a';
@@ -50,12 +40,12 @@ function hidden(): void {
 
 export { hidden };
 ",
-    "warningCount": 0,
+    "warningCount": 1,
   },
   Object {
-    "errorCount": 6,
+    "errorCount": 5,
     "filePath": "<PROJECT_ROOT>/src/a.ts",
-    "fixableErrorCount": 0,
+    "fixableErrorCount": 3,
     "fixableWarningCount": 0,
     "messages": Array [
       Object {
@@ -75,18 +65,8 @@ export { hidden };
         "line": 4,
         "message": "'unused' is assigned a value but never used.",
         "nodeType": "Identifier",
-        "ruleId": "no-unused-vars",
-        "severity": 2,
-      },
-      Object {
-        "column": 7,
-        "endColumn": 13,
-        "endLine": 4,
-        "line": 4,
-        "message": "'unused' is assigned a value but never used.",
-        "nodeType": "Identifier",
         "ruleId": "@typescript-eslint/no-unused-vars",
-        "severity": 2,
+        "severity": 1,
       },
       Object {
         "column": 1,
@@ -106,18 +86,73 @@ export { hidden };
         "line": 6,
         "message": "'foo' is defined but never used.",
         "nodeType": "Identifier",
-        "ruleId": "no-unused-vars",
+        "ruleId": "@typescript-eslint/no-unused-vars",
+        "severity": 1,
+      },
+      Object {
+        "column": 6,
+        "endColumn": 7,
+        "endLine": 8,
+        "fix": Object {
+          "range": Array [
+            89,
+            98,
+          ],
+          "text": "interface A ",
+        },
+        "line": 8,
+        "message": "Use an interface instead of a type literal.",
+        "messageId": "interfaceOverType",
+        "nodeType": "Identifier",
+        "ruleId": "@typescript-eslint/prefer-interface",
         "severity": 2,
       },
       Object {
-        "column": 11,
-        "endColumn": 14,
-        "endLine": 6,
-        "line": 6,
-        "message": "'foo' is defined but never used.",
-        "nodeType": "Identifier",
-        "ruleId": "@typescript-eslint/no-unused-vars",
+        "column": 17,
+        "endColumn": 17,
+        "endLine": 9,
+        "fix": Object {
+          "range": Array [
+            115,
+            116,
+          ],
+          "text": ";",
+        },
+        "line": 9,
+        "message": "Expected a semicolon.",
+        "messageId": "expectedSemi",
+        "nodeType": "Punctuator",
+        "ruleId": "@typescript-eslint/member-delimiter-style",
         "severity": 2,
+      },
+      Object {
+        "column": 17,
+        "endColumn": 17,
+        "endLine": 10,
+        "fix": Object {
+          "range": Array [
+            132,
+            133,
+          ],
+          "text": ";",
+        },
+        "line": 10,
+        "message": "Expected a semicolon.",
+        "messageId": "expectedSemi",
+        "nodeType": "Punctuator",
+        "ruleId": "@typescript-eslint/member-delimiter-style",
+        "severity": 2,
+      },
+      Object {
+        "column": 1,
+        "endColumn": 2,
+        "endLine": 14,
+        "line": 13,
+        "message": "Missing return type on function.",
+        "messageId": "missingReturnType",
+        "nodeType": "FunctionDeclaration",
+        "ruleId": "@typescript-eslint/explicit-function-return-type",
+        "severity": 1,
       },
     ],
     "source": "// @ts-ignore
@@ -137,14 +172,61 @@ function a() {
 
 export { a, exampleJson };
 ",
-    "warningCount": 0,
+    "warningCount": 3,
   },
   Object {
-    "errorCount": 1,
+    "errorCount": 3,
     "filePath": "<PROJECT_ROOT>/src/b.ts",
-    "fixableErrorCount": 0,
+    "fixableErrorCount": 2,
     "fixableWarningCount": 0,
     "messages": Array [
+      Object {
+        "column": 6,
+        "endColumn": 7,
+        "endLine": 3,
+        "fix": Object {
+          "range": Array [
+            26,
+            35,
+          ],
+          "text": "interface B ",
+        },
+        "line": 3,
+        "message": "Use an interface instead of a type literal.",
+        "messageId": "interfaceOverType",
+        "nodeType": "Identifier",
+        "ruleId": "@typescript-eslint/prefer-interface",
+        "severity": 2,
+      },
+      Object {
+        "column": 17,
+        "endColumn": 17,
+        "endLine": 4,
+        "fix": Object {
+          "range": Array [
+            52,
+            53,
+          ],
+          "text": ";",
+        },
+        "line": 4,
+        "message": "Expected a semicolon.",
+        "messageId": "expectedSemi",
+        "nodeType": "Punctuator",
+        "ruleId": "@typescript-eslint/member-delimiter-style",
+        "severity": 2,
+      },
+      Object {
+        "column": 1,
+        "endColumn": 2,
+        "endLine": 9,
+        "line": 7,
+        "message": "Missing return type on function.",
+        "messageId": "missingReturnType",
+        "nodeType": "FunctionDeclaration",
+        "ruleId": "@typescript-eslint/explicit-function-return-type",
+        "severity": 1,
+      },
       Object {
         "column": 1,
         "endColumn": 18,
@@ -168,7 +250,7 @@ function b() {
 
 export default b;
 ",
-    "warningCount": 0,
+    "warningCount": 1,
   },
   Object {
     "errorCount": 0,
@@ -184,6 +266,17 @@ export default b;
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
     "messages": Array [
+      Object {
+        "column": 1,
+        "endColumn": 2,
+        "endLine": 5,
+        "line": 3,
+        "message": "Missing return type on function.",
+        "messageId": "missingReturnType",
+        "nodeType": "FunctionDeclaration",
+        "ruleId": "@typescript-eslint/explicit-function-return-type",
+        "severity": 1,
+      },
       Object {
         "column": 1,
         "endColumn": 27,
@@ -204,7 +297,7 @@ function typescript() {
 export { typescript };
 export default typescript;
 ",
-    "warningCount": 0,
+    "warningCount": 1,
   },
 ]
 `;
