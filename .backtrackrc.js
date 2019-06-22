@@ -11,6 +11,9 @@ module.exports = {
         eslint: () => {
             return {
                 extends: './node.js',
+                rules: {
+                    'jest/prefer-inline-snapshots': 'off',
+                },
             };
         },
     },
