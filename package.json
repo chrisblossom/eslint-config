@@ -51,6 +51,7 @@
     "eslint-plugin-flowtype": "^3.10.3",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jest": "^22.7.0",
+    "eslint-plugin-jest-formatting": "0.0.10",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.1.1"
   }
