@@ -43,9 +43,9 @@ export { hidden };
     "warningCount": 1,
   },
   Object {
-    "errorCount": 5,
+    "errorCount": 3,
     "filePath": "<PROJECT_ROOT>/src/a.ts",
-    "fixableErrorCount": 3,
+    "fixableErrorCount": 1,
     "fixableWarningCount": 0,
     "messages": Array [
       Object {
@@ -108,42 +108,6 @@ export { hidden };
         "severity": 2,
       },
       Object {
-        "column": 17,
-        "endColumn": 17,
-        "endLine": 9,
-        "fix": Object {
-          "range": Array [
-            115,
-            116,
-          ],
-          "text": ";",
-        },
-        "line": 9,
-        "message": "Expected a semicolon.",
-        "messageId": "expectedSemi",
-        "nodeType": "Punctuator",
-        "ruleId": "@typescript-eslint/member-delimiter-style",
-        "severity": 2,
-      },
-      Object {
-        "column": 17,
-        "endColumn": 17,
-        "endLine": 10,
-        "fix": Object {
-          "range": Array [
-            132,
-            133,
-          ],
-          "text": ";",
-        },
-        "line": 10,
-        "message": "Expected a semicolon.",
-        "messageId": "expectedSemi",
-        "nodeType": "Punctuator",
-        "ruleId": "@typescript-eslint/member-delimiter-style",
-        "severity": 2,
-      },
-      Object {
         "column": 1,
         "endColumn": 2,
         "endLine": 14,
@@ -175,9 +139,9 @@ export { a, exampleJson };
     "warningCount": 3,
   },
   Object {
-    "errorCount": 3,
+    "errorCount": 2,
     "filePath": "<PROJECT_ROOT>/src/b.ts",
-    "fixableErrorCount": 2,
+    "fixableErrorCount": 1,
     "fixableWarningCount": 0,
     "messages": Array [
       Object {
@@ -196,24 +160,6 @@ export { a, exampleJson };
         "messageId": "interfaceOverType",
         "nodeType": "Identifier",
         "ruleId": "@typescript-eslint/prefer-interface",
-        "severity": 2,
-      },
-      Object {
-        "column": 17,
-        "endColumn": 17,
-        "endLine": 4,
-        "fix": Object {
-          "range": Array [
-            52,
-            53,
-          ],
-          "text": ";",
-        },
-        "line": 4,
-        "message": "Expected a semicolon.",
-        "messageId": "expectedSemi",
-        "nodeType": "Punctuator",
-        "ruleId": "@typescript-eslint/member-delimiter-style",
         "severity": 2,
       },
       Object {
