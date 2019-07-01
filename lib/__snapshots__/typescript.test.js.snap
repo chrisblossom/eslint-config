@@ -43,7 +43,7 @@ export { hidden };
     "warningCount": 1,
   },
   Object {
-    "errorCount": 3,
+    "errorCount": 4,
     "filePath": "<PROJECT_ROOT>/src/a.ts",
     "fixableErrorCount": 1,
     "fixableWarningCount": 0,
@@ -116,7 +116,7 @@ export { hidden };
         "messageId": "missingReturnType",
         "nodeType": "FunctionDeclaration",
         "ruleId": "@typescript-eslint/explicit-function-return-type",
-        "severity": 1,
+        "severity": 2,
       },
     ],
     "source": "// @ts-ignore
@@ -136,10 +136,10 @@ function a() {
 
 export { a, exampleJson };
 ",
-    "warningCount": 3,
+    "warningCount": 2,
   },
   Object {
-    "errorCount": 2,
+    "errorCount": 3,
     "filePath": "<PROJECT_ROOT>/src/b.ts",
     "fixableErrorCount": 1,
     "fixableWarningCount": 0,
@@ -171,7 +171,7 @@ export { a, exampleJson };
         "messageId": "missingReturnType",
         "nodeType": "FunctionDeclaration",
         "ruleId": "@typescript-eslint/explicit-function-return-type",
-        "severity": 1,
+        "severity": 2,
       },
       Object {
         "column": 1,
@@ -196,7 +196,7 @@ function b() {
 
 export default b;
 ",
-    "warningCount": 1,
+    "warningCount": 0,
   },
   Object {
     "errorCount": 0,
@@ -207,7 +207,7 @@ export default b;
     "warningCount": 0,
   },
   Object {
-    "errorCount": 1,
+    "errorCount": 2,
     "filePath": "<PROJECT_ROOT>/src/typescript.ts",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
@@ -221,7 +221,7 @@ export default b;
         "messageId": "missingReturnType",
         "nodeType": "FunctionDeclaration",
         "ruleId": "@typescript-eslint/explicit-function-return-type",
-        "severity": 1,
+        "severity": 2,
       },
       Object {
         "column": 1,
@@ -243,7 +243,7 @@ function typescript() {
 export { typescript };
 export default typescript;
 ",
-    "warningCount": 1,
+    "warningCount": 0,
   },
 ]
 `;
