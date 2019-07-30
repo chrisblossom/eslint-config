@@ -17,9 +17,9 @@ This is my personal ESLint config I've extended from [Airbnb's](https://github.c
 'use strict';
 
 module.exports = {
-    extends: ['@chrisblossom/eslint-config'],
+	extends: ['@chrisblossom/eslint-config'],
 
-    // Vanilla JS. No compiling
-    extends: ['@chrisblossom/eslint-config/node'],
+	// Vanilla JS. No compiling
+	extends: ['@chrisblossom/eslint-config/node'],
 };
 ```

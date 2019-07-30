@@ -1,20 +1,20 @@
 'use strict';
 
 module.exports = {
-    presets: [['@backtrack/node', { mode: 'module', syntax: 'node' }]],
+	presets: [['@backtrack/node', { mode: 'module', syntax: 'node' }]],
 
-    packageJson: {
-        files: ['lib/', 'node.js'],
-    },
+	packageJson: {
+		files: ['lib/', 'node.js'],
+	},
 
-    config: {
-        eslint: () => {
-            return {
-                extends: './node.js',
-                rules: {
-                    'jest/prefer-inline-snapshots': 'off',
-                },
-            };
-        },
-    },
+	config: {
+		eslint: () => {
+			return {
+				extends: './node.js',
+				rules: {
+					'jest/prefer-inline-snapshots': 'off',
+				},
+			};
+		},
+	},
 };
