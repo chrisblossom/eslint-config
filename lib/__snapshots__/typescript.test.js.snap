@@ -199,11 +199,26 @@ export default b;
     "warningCount": 0,
   },
   Object {
-    "errorCount": 0,
+    "errorCount": 1,
     "filePath": "<PROJECT_ROOT>/src/typescript.test.ts",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
-    "messages": Array [],
+    "messages": Array [
+      Object {
+        "column": 20,
+        "endColumn": 28,
+        "endLine": 1,
+        "line": 1,
+        "message": "\\"eslint\\" is not published.",
+        "nodeType": "Literal",
+        "ruleId": "node/no-unpublished-import",
+        "severity": 2,
+      },
+    ],
+    "source": "import eslint from 'eslint';
+
+export { eslint };
+",
     "warningCount": 0,
   },
   Object {
