@@ -151,9 +151,11 @@ export { a, exampleJson };
         "fix": Object {
           "range": Array [
             26,
-            35,
+            53,
           ],
-          "text": "interface B ",
+          "text": "interface B {
+	one: string;
+}",
         },
         "line": 3,
         "message": "Use an \`interface\` instead of a \`type\`",
@@ -165,8 +167,8 @@ export { a, exampleJson };
       Object {
         "column": 1,
         "endColumn": 13,
-        "endLine": 7,
-        "line": 7,
+        "endLine": 11,
+        "line": 11,
         "message": "Missing return type on function.",
         "messageId": "missingReturnType",
         "nodeType": "FunctionDeclaration",
@@ -176,8 +178,8 @@ export { a, exampleJson };
       Object {
         "column": 1,
         "endColumn": 18,
-        "endLine": 13,
-        "line": 13,
+        "endLine": 17,
+        "line": 17,
         "message": "Prefer named exports.",
         "nodeType": "ExportDefaultDeclaration",
         "ruleId": "import/no-default-export",
@@ -187,11 +189,15 @@ export { a, exampleJson };
     "source": "import { a } from './a';
 
 type B = {
-    one: string,
+	one: string;
+};
+
+export interface E {
+	one: string;
 }
 
 function b() {
-    a();
+	a();
 }
 
 const c = d;

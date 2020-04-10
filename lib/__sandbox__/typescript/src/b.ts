@@ -1,11 +1,15 @@
 import { a } from './a';
 
 type B = {
-    one: string,
+	one: string;
+};
+
+export interface E {
+	one: string;
 }
 
 function b() {
-    a();
+	a();
 }
 
 const c = d;
