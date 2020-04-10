@@ -29,14 +29,14 @@
     "test.ci": "backtrack test.ci",
     "test.ci-pretest": "backtrack test.ci-pretest",
     "test.update": "jest --update-snapshot",
-    "test.watch": "jest --watch"
+    "test.watch": "jest --watch --pass-with-no-tests"
   },
   "peerDependencies": {
     "eslint": ">=6"
   },
   "devDependencies": {
     "@backtrack/core": "^0.2.1",
-    "@backtrack/preset-node": "^0.6.2",
+    "@backtrack/preset-node": "^0.7.1",
     "@types/node": "^13.11.1",
     "eslint": "^6.8.0",
     "flow-bin": "^0.122.0",
