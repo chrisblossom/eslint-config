@@ -176,8 +176,8 @@ export { a, exampleJson };
       Object {
         "column": 1,
         "endColumn": 18,
-        "endLine": 11,
-        "line": 11,
+        "endLine": 13,
+        "line": 13,
         "message": "Prefer named exports.",
         "nodeType": "ExportDefaultDeclaration",
         "ruleId": "import/no-default-export",
@@ -194,7 +194,10 @@ function b() {
     a();
 }
 
+const c = d;
+
 export default b;
+export { c };
 ",
     "warningCount": 0,
   },

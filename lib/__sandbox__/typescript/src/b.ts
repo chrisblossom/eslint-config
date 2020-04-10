@@ -8,4 +8,7 @@ function b() {
     a();
 }
 
+const c = d;
+
 export default b;
+export { c };
