@@ -165,8 +165,8 @@ export { a };
         "severity": 2,
       },
       Object {
-        "column": 1,
-        "endColumn": 18,
+        "column": 8,
+        "endColumn": 15,
         "endLine": 14,
         "line": 14,
         "message": "Prefer named exports.",
@@ -199,8 +199,8 @@ export default b;
     "fixableWarningCount": 0,
     "messages": Array [
       Object {
-        "column": 1,
-        "endColumn": 21,
+        "column": 8,
+        "endColumn": 15,
         "endLine": 8,
         "line": 8,
         "message": "Prefer named exports.",

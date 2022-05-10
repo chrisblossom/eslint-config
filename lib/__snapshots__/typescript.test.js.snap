@@ -198,8 +198,8 @@ export { a, exampleJson };
         "severity": 2,
       },
       Object {
-        "column": 1,
-        "endColumn": 18,
+        "column": 8,
+        "endColumn": 15,
         "endLine": 17,
         "line": 17,
         "message": "Prefer named exports.",
@@ -281,8 +281,8 @@ export { eslint };
         "severity": 2,
       },
       Object {
-        "column": 1,
-        "endColumn": 27,
+        "column": 8,
+        "endColumn": 15,
         "endLine": 8,
         "line": 8,
         "message": "Prefer named exports.",
