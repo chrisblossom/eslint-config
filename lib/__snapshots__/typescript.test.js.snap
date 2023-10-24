@@ -74,6 +74,37 @@ function hidden(): void {
 
 export { hidden };
 ",
+    "suppressedMessages": [],
+    "usedDeprecatedRules": [
+      {
+        "replacedBy": [
+          "padding-line-between-statements",
+        ],
+        "ruleId": "lines-around-directive",
+      },
+      {
+        "replacedBy": [
+          "no-object-constructor",
+        ],
+        "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-buffer-constructor",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-new-require",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-path-concat",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-return-await",
+      },
+    ],
     "warningCount": 0,
   },
   {
@@ -238,6 +269,37 @@ function a() {
 
 export { a, exampleJson };
 ",
+    "suppressedMessages": [],
+    "usedDeprecatedRules": [
+      {
+        "replacedBy": [
+          "padding-line-between-statements",
+        ],
+        "ruleId": "lines-around-directive",
+      },
+      {
+        "replacedBy": [
+          "no-object-constructor",
+        ],
+        "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-buffer-constructor",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-new-require",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-path-concat",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-return-await",
+      },
+    ],
     "warningCount": 0,
   },
   {
@@ -373,6 +435,37 @@ const c = d;
 export default b;
 export { c };
 ",
+    "suppressedMessages": [],
+    "usedDeprecatedRules": [
+      {
+        "replacedBy": [
+          "padding-line-between-statements",
+        ],
+        "ruleId": "lines-around-directive",
+      },
+      {
+        "replacedBy": [
+          "no-object-constructor",
+        ],
+        "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-buffer-constructor",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-new-require",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-path-concat",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-return-await",
+      },
+    ],
     "warningCount": 0,
   },
   {
@@ -419,6 +512,37 @@ export { c };
 
 export { eslint };
 ",
+    "suppressedMessages": [],
+    "usedDeprecatedRules": [
+      {
+        "replacedBy": [
+          "padding-line-between-statements",
+        ],
+        "ruleId": "lines-around-directive",
+      },
+      {
+        "replacedBy": [
+          "no-object-constructor",
+        ],
+        "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-buffer-constructor",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-new-require",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-path-concat",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-return-await",
+      },
+    ],
     "warningCount": 0,
   },
   {
@@ -502,6 +626,37 @@ function typescript() {
 export { typescript };
 export default typescript;
 ",
+    "suppressedMessages": [],
+    "usedDeprecatedRules": [
+      {
+        "replacedBy": [
+          "padding-line-between-statements",
+        ],
+        "ruleId": "lines-around-directive",
+      },
+      {
+        "replacedBy": [
+          "no-object-constructor",
+        ],
+        "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-buffer-constructor",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-new-require",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-path-concat",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-return-await",
+      },
+    ],
     "warningCount": 0,
   },
 ]

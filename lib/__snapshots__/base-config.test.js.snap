@@ -26,6 +26,37 @@ exports[`baseConfig lints javascript files 1`] = `
 
 hiddenBase();
 ",
+    "suppressedMessages": [],
+    "usedDeprecatedRules": [
+      {
+        "replacedBy": [
+          "padding-line-between-statements",
+        ],
+        "ruleId": "lines-around-directive",
+      },
+      {
+        "replacedBy": [
+          "no-object-constructor",
+        ],
+        "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-buffer-constructor",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-new-require",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-path-concat",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-return-await",
+      },
+    ],
     "warningCount": 0,
   },
   {
@@ -62,6 +93,37 @@ hiddenBase();
 
 module.exports = baseMatch;
 ",
+    "suppressedMessages": [],
+    "usedDeprecatedRules": [
+      {
+        "replacedBy": [
+          "padding-line-between-statements",
+        ],
+        "ruleId": "lines-around-directive",
+      },
+      {
+        "replacedBy": [
+          "no-object-constructor",
+        ],
+        "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-buffer-constructor",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-new-require",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-path-concat",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-return-await",
+      },
+    ],
     "warningCount": 0,
   },
   {
@@ -102,6 +164,37 @@ function hidden() {
 
 export { hidden, exampleJson };
 ",
+    "suppressedMessages": [],
+    "usedDeprecatedRules": [
+      {
+        "replacedBy": [
+          "padding-line-between-statements",
+        ],
+        "ruleId": "lines-around-directive",
+      },
+      {
+        "replacedBy": [
+          "no-object-constructor",
+        ],
+        "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-buffer-constructor",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-new-require",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-path-concat",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-return-await",
+      },
+    ],
     "warningCount": 0,
   },
   {
@@ -111,6 +204,37 @@ export { hidden, exampleJson };
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
     "messages": [],
+    "suppressedMessages": [],
+    "usedDeprecatedRules": [
+      {
+        "replacedBy": [
+          "padding-line-between-statements",
+        ],
+        "ruleId": "lines-around-directive",
+      },
+      {
+        "replacedBy": [
+          "no-object-constructor",
+        ],
+        "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-buffer-constructor",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-new-require",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-path-concat",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-return-await",
+      },
+    ],
     "warningCount": 0,
   },
   {
@@ -151,6 +275,37 @@ function a() {
 
 export { a, exampleJson };
 ",
+    "suppressedMessages": [],
+    "usedDeprecatedRules": [
+      {
+        "replacedBy": [
+          "padding-line-between-statements",
+        ],
+        "ruleId": "lines-around-directive",
+      },
+      {
+        "replacedBy": [
+          "no-object-constructor",
+        ],
+        "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-buffer-constructor",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-new-require",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-path-concat",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-return-await",
+      },
+    ],
     "warningCount": 0,
   },
   {
@@ -179,6 +334,37 @@ function b() {
 
 export default b;
 ",
+    "suppressedMessages": [],
+    "usedDeprecatedRules": [
+      {
+        "replacedBy": [
+          "padding-line-between-statements",
+        ],
+        "ruleId": "lines-around-directive",
+      },
+      {
+        "replacedBy": [
+          "no-object-constructor",
+        ],
+        "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-buffer-constructor",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-new-require",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-path-concat",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-return-await",
+      },
+    ],
     "warningCount": 0,
   },
   {
@@ -208,6 +394,37 @@ function base() {
 export { base };
 export default base;
 ",
+    "suppressedMessages": [],
+    "usedDeprecatedRules": [
+      {
+        "replacedBy": [
+          "padding-line-between-statements",
+        ],
+        "ruleId": "lines-around-directive",
+      },
+      {
+        "replacedBy": [
+          "no-object-constructor",
+        ],
+        "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-buffer-constructor",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-new-require",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-path-concat",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-return-await",
+      },
+    ],
     "warningCount": 0,
   },
   {
@@ -217,6 +434,37 @@ export default base;
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
     "messages": [],
+    "suppressedMessages": [],
+    "usedDeprecatedRules": [
+      {
+        "replacedBy": [
+          "padding-line-between-statements",
+        ],
+        "ruleId": "lines-around-directive",
+      },
+      {
+        "replacedBy": [
+          "no-object-constructor",
+        ],
+        "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-buffer-constructor",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-new-require",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-path-concat",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "no-return-await",
+      },
+    ],
     "warningCount": 0,
   },
 ]
