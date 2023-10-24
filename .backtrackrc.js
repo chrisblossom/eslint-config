@@ -9,6 +9,9 @@ module.exports = {
 	],
 
 	packageJson: {
+		engines: {
+			node: '>=18.12.0',
+		},
 		files: [
 			'lib/',
 			'node.js',
