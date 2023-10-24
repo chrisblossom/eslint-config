@@ -33,7 +33,7 @@
 		"test.watch": "jest --watch --pass-with-no-tests"
 	},
 	"peerDependencies": {
-		"eslint": ">=6"
+		"eslint": "^7.0.0"
 	},
 	"devDependencies": {
 		"@backtrack/core": "^0.2.1",
