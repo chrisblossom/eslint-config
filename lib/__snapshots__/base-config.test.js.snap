@@ -1,14 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`baseConfig lints javascript files 1`] = `
-Array [
-  Object {
+[
+  {
     "errorCount": 1,
+    "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/.hidden-base.js",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
-    "messages": Array [
-      Object {
+    "messages": [
+      {
         "column": 1,
         "endColumn": 14,
         "endLine": 4,
@@ -27,13 +28,14 @@ hiddenBase();
 ",
     "warningCount": 0,
   },
-  Object {
+  {
     "errorCount": 2,
+    "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/base.js",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
-    "messages": Array [
-      Object {
+    "messages": [
+      {
         "column": 1,
         "endColumn": 28,
         "endLine": 4,
@@ -44,7 +46,7 @@ hiddenBase();
         "ruleId": "strict",
         "severity": 2,
       },
-      Object {
+      {
         "column": 1,
         "endColumn": 28,
         "endLine": 4,
@@ -62,28 +64,30 @@ module.exports = baseMatch;
 ",
     "warningCount": 0,
   },
-  Object {
+  {
     "errorCount": 2,
+    "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/src/.hidden.js",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
-    "messages": Array [
-      Object {
+    "messages": [
+      {
         "column": 25,
         "endColumn": 36,
         "endLine": 1,
         "line": 1,
-        "message": "Missing file extension \\"json\\" for \\"./example\\"",
+        "message": "Missing file extension "json" for "./example"",
         "nodeType": "Literal",
         "ruleId": "import/extensions",
         "severity": 2,
       },
-      Object {
+      {
         "column": 7,
         "endColumn": 13,
         "endLine": 3,
         "line": 3,
         "message": "'unused' is assigned a value but never used.",
+        "messageId": "unusedVar",
         "nodeType": "Identifier",
         "ruleId": "no-unused-vars",
         "severity": 2,
@@ -100,36 +104,39 @@ export { hidden, exampleJson };
 ",
     "warningCount": 0,
   },
-  Object {
+  {
     "errorCount": 0,
+    "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/src/.hidden.test.js",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
-    "messages": Array [],
+    "messages": [],
     "warningCount": 0,
   },
-  Object {
+  {
     "errorCount": 2,
+    "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/src/a.js",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
-    "messages": Array [
-      Object {
+    "messages": [
+      {
         "column": 25,
         "endColumn": 36,
         "endLine": 1,
         "line": 1,
-        "message": "Missing file extension \\"json\\" for \\"./example\\"",
+        "message": "Missing file extension "json" for "./example"",
         "nodeType": "Literal",
         "ruleId": "import/extensions",
         "severity": 2,
       },
-      Object {
+      {
         "column": 7,
         "endColumn": 13,
         "endLine": 3,
         "line": 3,
         "message": "'unused' is assigned a value but never used.",
+        "messageId": "unusedVar",
         "nodeType": "Identifier",
         "ruleId": "no-unused-vars",
         "severity": 2,
@@ -146,13 +153,14 @@ export { a, exampleJson };
 ",
     "warningCount": 0,
   },
-  Object {
+  {
     "errorCount": 1,
+    "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/src/b.js",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
-    "messages": Array [
-      Object {
+    "messages": [
+      {
         "column": 8,
         "endColumn": 15,
         "endLine": 7,
@@ -173,13 +181,14 @@ export default b;
 ",
     "warningCount": 0,
   },
-  Object {
+  {
     "errorCount": 1,
+    "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/src/base.js",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
-    "messages": Array [
-      Object {
+    "messages": [
+      {
         "column": 8,
         "endColumn": 15,
         "endLine": 8,
@@ -201,12 +210,13 @@ export default base;
 ",
     "warningCount": 0,
   },
-  Object {
+  {
     "errorCount": 0,
+    "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/src/base.test.js",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
-    "messages": Array [],
+    "messages": [],
     "warningCount": 0,
   },
 ]

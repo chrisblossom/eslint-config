@@ -36,6 +36,7 @@
             "node.js"
         ],
         "main": "lib/eslint-config.js",
+        "module": "commonjs",
         "private": false,
         "scripts": {
             "check.all": "backtrack check.all",

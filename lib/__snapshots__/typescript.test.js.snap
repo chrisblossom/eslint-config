@@ -1,33 +1,67 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`typescript lints typescript files 1`] = `
-Array [
-  Object {
-    "errorCount": 1,
+[
+  {
+    "errorCount": 5,
+    "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/src/.hidden.ts",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
-    "messages": Array [
-      Object {
+    "messages": [
+      {
+        "column": 1,
+        "endColumn": 1,
+        "endLine": 0,
+        "line": 0,
+        "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
+        "messageId": "noStrictNullCheck",
+        "nodeType": null,
+        "ruleId": "@typescript-eslint/strict-boolean-expressions",
+        "severity": 2,
+      },
+      {
+        "column": 1,
+        "endColumn": 1,
+        "endLine": 0,
+        "line": 0,
+        "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
+        "messageId": "noStrictNullCheck",
+        "nodeType": null,
+        "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
+        "severity": 2,
+      },
+      {
+        "column": 1,
+        "endColumn": 2,
+        "endLine": 1,
+        "line": 1,
+        "message": "Definition for rule '@typescript-eslint/camelcase' was not found.",
+        "nodeType": null,
+        "ruleId": "@typescript-eslint/camelcase",
+        "severity": 2,
+      },
+      {
         "column": 1,
         "endColumn": 17,
         "endLine": 3,
         "line": 3,
-        "message": "ES2015 module syntax is preferred over custom TypeScript modules and namespaces.",
+        "message": "ES2015 module syntax is preferred over namespaces.",
         "messageId": "moduleSyntaxIsPreferred",
         "nodeType": "TSModuleDeclaration",
         "ruleId": "@typescript-eslint/no-namespace",
         "severity": 2,
       },
-      Object {
+      {
         "column": 11,
         "endColumn": 14,
         "endLine": 3,
         "line": 3,
         "message": "'foo' is defined but never used.",
+        "messageId": "unusedVar",
         "nodeType": "Identifier",
         "ruleId": "@typescript-eslint/no-unused-vars",
-        "severity": 1,
+        "severity": 2,
       },
     ],
     "source": "import { a } from './a';
@@ -40,61 +74,107 @@ function hidden(): void {
 
 export { hidden };
 ",
-    "warningCount": 1,
+    "warningCount": 0,
   },
-  Object {
-    "errorCount": 4,
+  {
+    "errorCount": 12,
+    "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/src/a.ts",
     "fixableErrorCount": 1,
     "fixableWarningCount": 0,
-    "messages": Array [
-      Object {
+    "messages": [
+      {
+        "column": 1,
+        "endColumn": 1,
+        "endLine": 0,
+        "line": 0,
+        "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
+        "messageId": "noStrictNullCheck",
+        "nodeType": null,
+        "ruleId": "@typescript-eslint/strict-boolean-expressions",
+        "severity": 2,
+      },
+      {
+        "column": 1,
+        "endColumn": 1,
+        "endLine": 0,
+        "line": 0,
+        "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
+        "messageId": "noStrictNullCheck",
+        "nodeType": null,
+        "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
+        "severity": 2,
+      },
+      {
+        "column": 1,
+        "endColumn": 2,
+        "endLine": 1,
+        "line": 1,
+        "message": "Definition for rule '@typescript-eslint/camelcase' was not found.",
+        "nodeType": null,
+        "ruleId": "@typescript-eslint/camelcase",
+        "severity": 2,
+      },
+      {
+        "column": 1,
+        "endColumn": 14,
+        "endLine": 1,
+        "line": 1,
+        "message": "Do not use "@ts-ignore" because it alters compilation errors.",
+        "messageId": "tsDirectiveComment",
+        "nodeType": "Line",
+        "ruleId": "@typescript-eslint/ban-ts-comment",
+        "severity": 2,
+      },
+      {
         "column": 25,
         "endColumn": 36,
         "endLine": 2,
         "line": 2,
-        "message": "Missing file extension \\"json\\" for \\"./example\\"",
+        "message": "Missing file extension "json" for "./example"",
         "nodeType": "Literal",
         "ruleId": "import/extensions",
         "severity": 2,
       },
-      Object {
+      {
         "column": 7,
         "endColumn": 13,
         "endLine": 4,
         "line": 4,
         "message": "'unused' is assigned a value but never used.",
+        "messageId": "unusedVar",
         "nodeType": "Identifier",
         "ruleId": "@typescript-eslint/no-unused-vars",
-        "severity": 1,
+        "severity": 2,
       },
-      Object {
+      {
         "column": 1,
         "endColumn": 17,
         "endLine": 6,
         "line": 6,
-        "message": "ES2015 module syntax is preferred over custom TypeScript modules and namespaces.",
+        "message": "ES2015 module syntax is preferred over namespaces.",
         "messageId": "moduleSyntaxIsPreferred",
         "nodeType": "TSModuleDeclaration",
         "ruleId": "@typescript-eslint/no-namespace",
         "severity": 2,
       },
-      Object {
+      {
         "column": 11,
         "endColumn": 14,
         "endLine": 6,
         "line": 6,
         "message": "'foo' is defined but never used.",
+        "messageId": "unusedVar",
         "nodeType": "Identifier",
         "ruleId": "@typescript-eslint/no-unused-vars",
-        "severity": 1,
+        "severity": 2,
       },
-      Object {
+      {
         "column": 6,
         "endColumn": 7,
         "endLine": 8,
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             89,
             98,
           ],
@@ -107,15 +187,37 @@ export { hidden };
         "ruleId": "@typescript-eslint/consistent-type-definitions",
         "severity": 2,
       },
-      Object {
+      {
+        "column": 6,
+        "endColumn": 7,
+        "endLine": 8,
+        "line": 8,
+        "message": "'A' is defined but never used.",
+        "messageId": "unusedVar",
+        "nodeType": "Identifier",
+        "ruleId": "@typescript-eslint/no-unused-vars",
+        "severity": 2,
+      },
+      {
         "column": 1,
-        "endColumn": 13,
+        "endColumn": 11,
         "endLine": 13,
         "line": 13,
         "message": "Missing return type on function.",
         "messageId": "missingReturnType",
         "nodeType": "FunctionDeclaration",
         "ruleId": "@typescript-eslint/explicit-function-return-type",
+        "severity": 2,
+      },
+      {
+        "column": 1,
+        "endColumn": 11,
+        "endLine": 13,
+        "line": 13,
+        "message": "Missing return type on function.",
+        "messageId": "missingReturnType",
+        "nodeType": "FunctionDeclaration",
+        "ruleId": "@typescript-eslint/explicit-module-boundary-types",
         "severity": 2,
       },
     ],
@@ -136,20 +238,53 @@ function a() {
 
 export { a, exampleJson };
 ",
-    "warningCount": 2,
+    "warningCount": 0,
   },
-  Object {
-    "errorCount": 5,
+  {
+    "errorCount": 9,
+    "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/src/b.ts",
     "fixableErrorCount": 1,
     "fixableWarningCount": 0,
-    "messages": Array [
-      Object {
+    "messages": [
+      {
+        "column": 1,
+        "endColumn": 1,
+        "endLine": 0,
+        "line": 0,
+        "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
+        "messageId": "noStrictNullCheck",
+        "nodeType": null,
+        "ruleId": "@typescript-eslint/strict-boolean-expressions",
+        "severity": 2,
+      },
+      {
+        "column": 1,
+        "endColumn": 1,
+        "endLine": 0,
+        "line": 0,
+        "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
+        "messageId": "noStrictNullCheck",
+        "nodeType": null,
+        "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
+        "severity": 2,
+      },
+      {
+        "column": 1,
+        "endColumn": 2,
+        "endLine": 1,
+        "line": 1,
+        "message": "Definition for rule '@typescript-eslint/camelcase' was not found.",
+        "nodeType": null,
+        "ruleId": "@typescript-eslint/camelcase",
+        "severity": 2,
+      },
+      {
         "column": 6,
         "endColumn": 7,
         "endLine": 3,
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             26,
             53,
           ],
@@ -164,9 +299,20 @@ export { a, exampleJson };
         "ruleId": "@typescript-eslint/consistent-type-definitions",
         "severity": 2,
       },
-      Object {
+      {
+        "column": 6,
+        "endColumn": 7,
+        "endLine": 3,
+        "line": 3,
+        "message": "'B' is defined but never used.",
+        "messageId": "unusedVar",
+        "nodeType": "Identifier",
+        "ruleId": "@typescript-eslint/no-unused-vars",
+        "severity": 2,
+      },
+      {
         "column": 1,
-        "endColumn": 13,
+        "endColumn": 11,
         "endLine": 11,
         "line": 11,
         "message": "Missing return type on function.",
@@ -175,9 +321,9 @@ export { a, exampleJson };
         "ruleId": "@typescript-eslint/explicit-function-return-type",
         "severity": 2,
       },
-      Object {
+      {
         "column": 1,
-        "endColumn": 13,
+        "endColumn": 11,
         "endLine": 11,
         "line": 11,
         "message": "Missing return type on function.",
@@ -186,18 +332,18 @@ export { a, exampleJson };
         "ruleId": "@typescript-eslint/explicit-module-boundary-types",
         "severity": 2,
       },
-      Object {
+      {
         "column": 7,
         "endColumn": 12,
         "endLine": 15,
         "line": 15,
-        "message": "Unsafe assignment of an any value.",
+        "message": "Unsafe assignment of an \`any\` value.",
         "messageId": "anyAssignment",
         "nodeType": "VariableDeclarator",
         "ruleId": "@typescript-eslint/no-unsafe-assignment",
         "severity": 2,
       },
-      Object {
+      {
         "column": 8,
         "endColumn": 15,
         "endLine": 17,
@@ -229,20 +375,43 @@ export { c };
 ",
     "warningCount": 0,
   },
-  Object {
-    "errorCount": 1,
+  {
+    "errorCount": 3,
+    "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/src/typescript.test.ts",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
-    "messages": Array [
-      Object {
-        "column": 20,
-        "endColumn": 28,
+    "messages": [
+      {
+        "column": 1,
+        "endColumn": 1,
+        "endLine": 0,
+        "line": 0,
+        "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
+        "messageId": "noStrictNullCheck",
+        "nodeType": null,
+        "ruleId": "@typescript-eslint/strict-boolean-expressions",
+        "severity": 2,
+      },
+      {
+        "column": 1,
+        "endColumn": 1,
+        "endLine": 0,
+        "line": 0,
+        "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
+        "messageId": "noStrictNullCheck",
+        "nodeType": null,
+        "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
+        "severity": 2,
+      },
+      {
+        "column": 1,
+        "endColumn": 2,
         "endLine": 1,
         "line": 1,
-        "message": "\\"eslint\\" is not published.",
-        "nodeType": "Literal",
-        "ruleId": "node/no-unpublished-import",
+        "message": "Definition for rule '@typescript-eslint/camelcase' was not found.",
+        "nodeType": null,
+        "ruleId": "@typescript-eslint/camelcase",
         "severity": 2,
       },
     ],
@@ -252,15 +421,48 @@ export { eslint };
 ",
     "warningCount": 0,
   },
-  Object {
-    "errorCount": 3,
+  {
+    "errorCount": 6,
+    "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/src/typescript.ts",
     "fixableErrorCount": 0,
     "fixableWarningCount": 0,
-    "messages": Array [
-      Object {
+    "messages": [
+      {
         "column": 1,
-        "endColumn": 22,
+        "endColumn": 1,
+        "endLine": 0,
+        "line": 0,
+        "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
+        "messageId": "noStrictNullCheck",
+        "nodeType": null,
+        "ruleId": "@typescript-eslint/strict-boolean-expressions",
+        "severity": 2,
+      },
+      {
+        "column": 1,
+        "endColumn": 1,
+        "endLine": 0,
+        "line": 0,
+        "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
+        "messageId": "noStrictNullCheck",
+        "nodeType": null,
+        "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
+        "severity": 2,
+      },
+      {
+        "column": 1,
+        "endColumn": 2,
+        "endLine": 1,
+        "line": 1,
+        "message": "Definition for rule '@typescript-eslint/camelcase' was not found.",
+        "nodeType": null,
+        "ruleId": "@typescript-eslint/camelcase",
+        "severity": 2,
+      },
+      {
+        "column": 1,
+        "endColumn": 20,
         "endLine": 3,
         "line": 3,
         "message": "Missing return type on function.",
@@ -269,9 +471,9 @@ export { eslint };
         "ruleId": "@typescript-eslint/explicit-function-return-type",
         "severity": 2,
       },
-      Object {
+      {
         "column": 1,
-        "endColumn": 22,
+        "endColumn": 20,
         "endLine": 3,
         "line": 3,
         "message": "Missing return type on function.",
@@ -280,7 +482,7 @@ export { eslint };
         "ruleId": "@typescript-eslint/explicit-module-boundary-types",
         "severity": 2,
       },
-      Object {
+      {
         "column": 8,
         "endColumn": 15,
         "endLine": 8,
