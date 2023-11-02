@@ -3,7 +3,7 @@
 exports[`typescript lints typescript files 1`] = `
 [
   {
-    "errorCount": 5,
+    "errorCount": 4,
     "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/src/.hidden.ts",
     "fixableErrorCount": 0,
@@ -29,16 +29,6 @@ exports[`typescript lints typescript files 1`] = `
         "messageId": "noStrictNullCheck",
         "nodeType": null,
         "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
-        "severity": 2,
-      },
-      {
-        "column": 1,
-        "endColumn": 2,
-        "endLine": 1,
-        "line": 1,
-        "message": "Definition for rule '@typescript-eslint/camelcase' was not found.",
-        "nodeType": null,
-        "ruleId": "@typescript-eslint/camelcase",
         "severity": 2,
       },
       {
@@ -108,7 +98,7 @@ export { hidden };
     "warningCount": 0,
   },
   {
-    "errorCount": 12,
+    "errorCount": 11,
     "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/src/a.ts",
     "fixableErrorCount": 1,
@@ -134,16 +124,6 @@ export { hidden };
         "messageId": "noStrictNullCheck",
         "nodeType": null,
         "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
-        "severity": 2,
-      },
-      {
-        "column": 1,
-        "endColumn": 2,
-        "endLine": 1,
-        "line": 1,
-        "message": "Definition for rule '@typescript-eslint/camelcase' was not found.",
-        "nodeType": null,
-        "ruleId": "@typescript-eslint/camelcase",
         "severity": 2,
       },
       {
@@ -303,7 +283,7 @@ export { a, exampleJson };
     "warningCount": 0,
   },
   {
-    "errorCount": 9,
+    "errorCount": 8,
     "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/src/b.ts",
     "fixableErrorCount": 1,
@@ -329,16 +309,6 @@ export { a, exampleJson };
         "messageId": "noStrictNullCheck",
         "nodeType": null,
         "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
-        "severity": 2,
-      },
-      {
-        "column": 1,
-        "endColumn": 2,
-        "endLine": 1,
-        "line": 1,
-        "message": "Definition for rule '@typescript-eslint/camelcase' was not found.",
-        "nodeType": null,
-        "ruleId": "@typescript-eslint/camelcase",
         "severity": 2,
       },
       {
@@ -469,7 +439,7 @@ export { c };
     "warningCount": 0,
   },
   {
-    "errorCount": 3,
+    "errorCount": 2,
     "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/src/typescript.test.ts",
     "fixableErrorCount": 0,
@@ -495,16 +465,6 @@ export { c };
         "messageId": "noStrictNullCheck",
         "nodeType": null,
         "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
-        "severity": 2,
-      },
-      {
-        "column": 1,
-        "endColumn": 2,
-        "endLine": 1,
-        "line": 1,
-        "message": "Definition for rule '@typescript-eslint/camelcase' was not found.",
-        "nodeType": null,
-        "ruleId": "@typescript-eslint/camelcase",
         "severity": 2,
       },
     ],
@@ -546,7 +506,7 @@ export { eslint };
     "warningCount": 0,
   },
   {
-    "errorCount": 6,
+    "errorCount": 5,
     "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/src/typescript.ts",
     "fixableErrorCount": 0,
@@ -572,16 +532,6 @@ export { eslint };
         "messageId": "noStrictNullCheck",
         "nodeType": null,
         "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
-        "severity": 2,
-      },
-      {
-        "column": 1,
-        "endColumn": 2,
-        "endLine": 1,
-        "line": 1,
-        "message": "Definition for rule '@typescript-eslint/camelcase' was not found.",
-        "nodeType": null,
-        "ruleId": "@typescript-eslint/camelcase",
         "severity": 2,
       },
       {
