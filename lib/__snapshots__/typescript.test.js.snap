@@ -17,7 +17,7 @@ exports[`typescript lints typescript files 1`] = `
         "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
         "messageId": "noStrictNullCheck",
         "nodeType": null,
-        "ruleId": "@typescript-eslint/strict-boolean-expressions",
+        "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
         "severity": 2,
       },
       {
@@ -28,7 +28,7 @@ exports[`typescript lints typescript files 1`] = `
         "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
         "messageId": "noStrictNullCheck",
         "nodeType": null,
-        "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
+        "ruleId": "@typescript-eslint/no-unnecessary-condition",
         "severity": 2,
       },
       {
@@ -98,23 +98,12 @@ export { hidden };
     "warningCount": 0,
   },
   {
-    "errorCount": 11,
+    "errorCount": 13,
     "fatalErrorCount": 0,
     "filePath": "<PROJECT_ROOT>/src/a.ts",
-    "fixableErrorCount": 1,
+    "fixableErrorCount": 2,
     "fixableWarningCount": 0,
     "messages": [
-      {
-        "column": 1,
-        "endColumn": 1,
-        "endLine": 0,
-        "line": 0,
-        "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
-        "messageId": "noStrictNullCheck",
-        "nodeType": null,
-        "ruleId": "@typescript-eslint/strict-boolean-expressions",
-        "severity": 2,
-      },
       {
         "column": 1,
         "endColumn": 1,
@@ -128,6 +117,17 @@ export { hidden };
       },
       {
         "column": 1,
+        "endColumn": 1,
+        "endLine": 0,
+        "line": 0,
+        "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
+        "messageId": "noStrictNullCheck",
+        "nodeType": null,
+        "ruleId": "@typescript-eslint/no-unnecessary-condition",
+        "severity": 2,
+      },
+      {
+        "column": 1,
         "endColumn": 14,
         "endLine": 1,
         "line": 1,
@@ -135,6 +135,24 @@ export { hidden };
         "messageId": "tsDirectiveComment",
         "nodeType": "Line",
         "ruleId": "@typescript-eslint/ban-ts-comment",
+        "severity": 2,
+      },
+      {
+        "column": 1,
+        "endColumn": 14,
+        "endLine": 1,
+        "fix": {
+          "range": [
+            0,
+            13,
+          ],
+          "text": "// @ts-expect-error",
+        },
+        "line": 1,
+        "message": "Use "@ts-expect-error" to ensure an error is actually being suppressed.",
+        "messageId": "preferExpectErrorComment",
+        "nodeType": "Line",
+        "ruleId": "@typescript-eslint/prefer-ts-expect-error",
         "severity": 2,
       },
       {
@@ -231,6 +249,17 @@ export { hidden };
         "ruleId": "@typescript-eslint/explicit-module-boundary-types",
         "severity": 2,
       },
+      {
+        "column": 14,
+        "endColumn": 2,
+        "endLine": 14,
+        "line": 13,
+        "message": "Unexpected empty function 'a'.",
+        "messageId": "unexpected",
+        "nodeType": "FunctionDeclaration",
+        "ruleId": "@typescript-eslint/no-empty-function",
+        "severity": 2,
+      },
     ],
     "source": "// @ts-ignore
 import exampleJson from './example';
@@ -297,7 +326,7 @@ export { a, exampleJson };
         "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
         "messageId": "noStrictNullCheck",
         "nodeType": null,
-        "ruleId": "@typescript-eslint/strict-boolean-expressions",
+        "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
         "severity": 2,
       },
       {
@@ -308,7 +337,7 @@ export { a, exampleJson };
         "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
         "messageId": "noStrictNullCheck",
         "nodeType": null,
-        "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
+        "ruleId": "@typescript-eslint/no-unnecessary-condition",
         "severity": 2,
       },
       {
@@ -453,7 +482,7 @@ export { c };
         "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
         "messageId": "noStrictNullCheck",
         "nodeType": null,
-        "ruleId": "@typescript-eslint/strict-boolean-expressions",
+        "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
         "severity": 2,
       },
       {
@@ -464,7 +493,7 @@ export { c };
         "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
         "messageId": "noStrictNullCheck",
         "nodeType": null,
-        "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
+        "ruleId": "@typescript-eslint/no-unnecessary-condition",
         "severity": 2,
       },
     ],
@@ -520,7 +549,7 @@ export { eslint };
         "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
         "messageId": "noStrictNullCheck",
         "nodeType": null,
-        "ruleId": "@typescript-eslint/strict-boolean-expressions",
+        "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
         "severity": 2,
       },
       {
@@ -531,7 +560,7 @@ export { eslint };
         "message": "This rule requires the \`strictNullChecks\` compiler option to be turned on to function correctly.",
         "messageId": "noStrictNullCheck",
         "nodeType": null,
-        "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
+        "ruleId": "@typescript-eslint/no-unnecessary-condition",
         "severity": 2,
       },
       {
