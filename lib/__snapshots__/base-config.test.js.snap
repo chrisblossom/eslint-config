@@ -29,6 +29,10 @@ hiddenBase();
     "suppressedMessages": [],
     "usedDeprecatedRules": [
       {
+        "replacedBy": [],
+        "ruleId": "lines-between-class-members",
+      },
+      {
         "replacedBy": [
           "padding-line-between-statements",
         ],
@@ -39,6 +43,10 @@ hiddenBase();
           "no-object-constructor",
         ],
         "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "spaced-comment",
       },
       {
         "replacedBy": [],
@@ -96,6 +104,10 @@ module.exports = baseMatch;
     "suppressedMessages": [],
     "usedDeprecatedRules": [
       {
+        "replacedBy": [],
+        "ruleId": "lines-between-class-members",
+      },
+      {
         "replacedBy": [
           "padding-line-between-statements",
         ],
@@ -106,6 +118,10 @@ module.exports = baseMatch;
           "no-object-constructor",
         ],
         "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "spaced-comment",
       },
       {
         "replacedBy": [],
@@ -167,6 +183,10 @@ export { hidden, exampleJson };
     "suppressedMessages": [],
     "usedDeprecatedRules": [
       {
+        "replacedBy": [],
+        "ruleId": "lines-between-class-members",
+      },
+      {
         "replacedBy": [
           "padding-line-between-statements",
         ],
@@ -177,6 +197,10 @@ export { hidden, exampleJson };
           "no-object-constructor",
         ],
         "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "spaced-comment",
       },
       {
         "replacedBy": [],
@@ -207,6 +231,10 @@ export { hidden, exampleJson };
     "suppressedMessages": [],
     "usedDeprecatedRules": [
       {
+        "replacedBy": [],
+        "ruleId": "lines-between-class-members",
+      },
+      {
         "replacedBy": [
           "padding-line-between-statements",
         ],
@@ -217,6 +245,10 @@ export { hidden, exampleJson };
           "no-object-constructor",
         ],
         "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "spaced-comment",
       },
       {
         "replacedBy": [],
@@ -278,6 +310,10 @@ export { a, exampleJson };
     "suppressedMessages": [],
     "usedDeprecatedRules": [
       {
+        "replacedBy": [],
+        "ruleId": "lines-between-class-members",
+      },
+      {
         "replacedBy": [
           "padding-line-between-statements",
         ],
@@ -288,6 +324,10 @@ export { a, exampleJson };
           "no-object-constructor",
         ],
         "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "spaced-comment",
       },
       {
         "replacedBy": [],
@@ -337,6 +377,10 @@ export default b;
     "suppressedMessages": [],
     "usedDeprecatedRules": [
       {
+        "replacedBy": [],
+        "ruleId": "lines-between-class-members",
+      },
+      {
         "replacedBy": [
           "padding-line-between-statements",
         ],
@@ -347,6 +391,10 @@ export default b;
           "no-object-constructor",
         ],
         "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "spaced-comment",
       },
       {
         "replacedBy": [],
@@ -397,6 +445,10 @@ export default base;
     "suppressedMessages": [],
     "usedDeprecatedRules": [
       {
+        "replacedBy": [],
+        "ruleId": "lines-between-class-members",
+      },
+      {
         "replacedBy": [
           "padding-line-between-statements",
         ],
@@ -407,6 +459,10 @@ export default base;
           "no-object-constructor",
         ],
         "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "spaced-comment",
       },
       {
         "replacedBy": [],
@@ -437,6 +493,10 @@ export default base;
     "suppressedMessages": [],
     "usedDeprecatedRules": [
       {
+        "replacedBy": [],
+        "ruleId": "lines-between-class-members",
+      },
+      {
         "replacedBy": [
           "padding-line-between-statements",
         ],
@@ -447,6 +507,10 @@ export default base;
           "no-object-constructor",
         ],
         "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "spaced-comment",
       },
       {
         "replacedBy": [],

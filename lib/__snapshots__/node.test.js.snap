@@ -30,6 +30,10 @@ export { b };
     "suppressedMessages": [],
     "usedDeprecatedRules": [
       {
+        "replacedBy": [],
+        "ruleId": "lines-between-class-members",
+      },
+      {
         "replacedBy": [
           "padding-line-between-statements",
         ],
@@ -40,6 +44,10 @@ export { b };
           "no-object-constructor",
         ],
         "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "spaced-comment",
       },
       {
         "replacedBy": [],
@@ -100,6 +108,10 @@ module.exports = a;
     "suppressedMessages": [],
     "usedDeprecatedRules": [
       {
+        "replacedBy": [],
+        "ruleId": "lines-between-class-members",
+      },
+      {
         "replacedBy": [
           "padding-line-between-statements",
         ],
@@ -110,6 +122,10 @@ module.exports = a;
           "no-object-constructor",
         ],
         "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "spaced-comment",
       },
       {
         "replacedBy": [],
@@ -171,6 +187,10 @@ module.exports = b;
     "suppressedMessages": [],
     "usedDeprecatedRules": [
       {
+        "replacedBy": [],
+        "ruleId": "lines-between-class-members",
+      },
+      {
         "replacedBy": [
           "padding-line-between-statements",
         ],
@@ -181,6 +201,10 @@ module.exports = b;
           "no-object-constructor",
         ],
         "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "spaced-comment",
       },
       {
         "replacedBy": [],
@@ -229,6 +253,10 @@ export { b };
     "suppressedMessages": [],
     "usedDeprecatedRules": [
       {
+        "replacedBy": [],
+        "ruleId": "lines-between-class-members",
+      },
+      {
         "replacedBy": [
           "padding-line-between-statements",
         ],
@@ -239,6 +267,10 @@ export { b };
           "no-object-constructor",
         ],
         "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "spaced-comment",
       },
       {
         "replacedBy": [],
@@ -269,6 +301,10 @@ export { b };
     "suppressedMessages": [],
     "usedDeprecatedRules": [
       {
+        "replacedBy": [],
+        "ruleId": "lines-between-class-members",
+      },
+      {
         "replacedBy": [
           "padding-line-between-statements",
         ],
@@ -279,6 +315,10 @@ export { b };
           "no-object-constructor",
         ],
         "ruleId": "no-new-object",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "spaced-comment",
       },
       {
         "replacedBy": [],

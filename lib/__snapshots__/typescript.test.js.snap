@@ -67,6 +67,14 @@ export { hidden };
     "suppressedMessages": [],
     "usedDeprecatedRules": [
       {
+        "replacedBy": [],
+        "ruleId": "spaced-comment",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "lines-between-class-members",
+      },
+      {
         "replacedBy": [
           "padding-line-between-statements",
         ],
@@ -131,11 +139,24 @@ export { hidden };
         "endColumn": 14,
         "endLine": 1,
         "line": 1,
-        "message": "Do not use "@ts-ignore" because it alters compilation errors.",
-        "messageId": "tsDirectiveComment",
+        "message": "Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free.",
+        "messageId": "tsIgnoreInsteadOfExpectError",
         "nodeType": "Line",
         "ruleId": "@typescript-eslint/ban-ts-comment",
         "severity": 2,
+        "suggestions": [
+          {
+            "desc": "Replace "@ts-ignore" with "@ts-expect-error".",
+            "fix": {
+              "range": [
+                0,
+                13,
+              ],
+              "text": "// @ts-expect-error",
+            },
+            "messageId": "replaceTsIgnoreWithTsExpectError",
+          },
+        ],
       },
       {
         "column": 1,
@@ -280,6 +301,14 @@ export { a, exampleJson };
 ",
     "suppressedMessages": [],
     "usedDeprecatedRules": [
+      {
+        "replacedBy": [],
+        "ruleId": "spaced-comment",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "lines-between-class-members",
+      },
       {
         "replacedBy": [
           "padding-line-between-statements",
@@ -437,6 +466,14 @@ export { c };
     "suppressedMessages": [],
     "usedDeprecatedRules": [
       {
+        "replacedBy": [],
+        "ruleId": "spaced-comment",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "lines-between-class-members",
+      },
+      {
         "replacedBy": [
           "padding-line-between-statements",
         ],
@@ -503,6 +540,14 @@ export { eslint };
 ",
     "suppressedMessages": [],
     "usedDeprecatedRules": [
+      {
+        "replacedBy": [],
+        "ruleId": "spaced-comment",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "lines-between-class-members",
+      },
       {
         "replacedBy": [
           "padding-line-between-statements",
@@ -607,6 +652,14 @@ export default typescript;
 ",
     "suppressedMessages": [],
     "usedDeprecatedRules": [
+      {
+        "replacedBy": [],
+        "ruleId": "spaced-comment",
+      },
+      {
+        "replacedBy": [],
+        "ruleId": "lines-between-class-members",
+      },
       {
         "replacedBy": [
           "padding-line-between-statements",
