@@ -37,7 +37,7 @@
 	},
 	"devDependencies": {
 		"@backtrack/core": "^0.2.1",
-		"@backtrack/preset-node": "^0.10.3",
+		"@backtrack/preset-node": "^0.11.0",
 		"@types/node": "^18.18.9",
 		"read-dir-deep": "^7.0.1",
 		"temp-sandbox": "^4.0.1",
